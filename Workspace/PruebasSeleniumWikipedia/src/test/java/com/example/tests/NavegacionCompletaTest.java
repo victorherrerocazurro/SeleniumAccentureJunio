@@ -39,7 +39,7 @@ public class NavegacionCompletaTest {
 		driver.get(baseUrl + "/html");
 		
 		//Priemra interaccion
-		driver.findElement(By.linkText("HTML Forms-")).click();
+		driver.findElement(By.linkText("HTML Forms")).click();
 		driver.findElements(By.partialLinkText("Try it Yourself")).get(2).click();
 
 		String parentWindow = driver.getWindowHandle();
