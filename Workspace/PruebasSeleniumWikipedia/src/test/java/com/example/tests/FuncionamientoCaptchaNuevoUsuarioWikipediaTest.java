@@ -18,9 +18,10 @@ public class FuncionamientoCaptchaNuevoUsuarioWikipediaTest {
 
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Selenium/Documents/software/chromedriver/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:/Users/Selenium/Documents/software/chromedriver/chromedriver.exe");
 
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		baseUrl = "https://es.wikipedia.org";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
