@@ -1,0 +1,26 @@
+Started by timer
+Building in workspace C:\Users\Selenium\.jenkins\workspace\Ejemplo
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/victorherrerocazurro/PruebasSelenium
+ > git.exe init C:\Users\Selenium\.jenkins\workspace\Ejemplo # timeout=10
+Fetching upstream changes from https://github.com/victorherrerocazurro/PruebasSelenium
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/victorherrerocazurro/PruebasSelenium +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/victorherrerocazurro/PruebasSelenium # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/victorherrerocazurro/PruebasSelenium # timeout=10
+Fetching upstream changes from https://github.com/victorherrerocazurro/PruebasSelenium
+ > git.exe fetch --tags --progress https://github.com/victorherrerocazurro/PruebasSelenium +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision d984338f58cabfb33cec73e6d9cfa781be6b42e0 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f d984338f58cabfb33cec73e6d9cfa781be6b42e0
+First time build. Skipping changelog.
+[Ejemplo] $ cmd.exe /C "mvn verify && exit %%ERRORLEVEL%%"
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+Build step 'Invoke top-level Maven targets' marked build as failure
+Recording test results
+Finished: FAILURE

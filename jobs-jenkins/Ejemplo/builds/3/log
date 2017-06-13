@@ -1,0 +1,62 @@
+Started by user [8mha:////4FILyGlV+AaHCR3uMg2S3DRJmIYC+Ej6OW1Opw4YlfwSAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace C:\Users\Selenium\.jenkins\workspace\Ejemplo
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/victorherrerocazurro/PruebasSelenium
+ > git.exe init C:\Users\Selenium\.jenkins\workspace\Ejemplo # timeout=10
+Fetching upstream changes from https://github.com/victorherrerocazurro/PruebasSelenium
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/victorherrerocazurro/PruebasSelenium +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/victorherrerocazurro/PruebasSelenium # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/victorherrerocazurro/PruebasSelenium # timeout=10
+Fetching upstream changes from https://github.com/victorherrerocazurro/PruebasSelenium
+ > git.exe fetch --tags --progress https://github.com/victorherrerocazurro/PruebasSelenium +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision d984338f58cabfb33cec73e6d9cfa781be6b42e0 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f d984338f58cabfb33cec73e6d9cfa781be6b42e0
+ > git.exe rev-list d984338f58cabfb33cec73e6d9cfa781be6b42e0 # timeout=10
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.0/apache-maven-3.5.0-bin.zip to C:\Users\Selenium\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN3.5.0 on Jenkins
+[Ejemplo] $ cmd.exe /C "C:\Users\Selenium\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN3.5.0\bin\mvn.cmd verify && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building PruebasSeleniumWikipedia 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4BfR7Bp6YAOQmKOOnPz2NgtdiMG1I0mqz4+zRZYPCnB9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ PruebasSeleniumWikipedia ---
+[8mha:////4M3c80c68pXDQkgeVaMaZreoxHYaqZVzEC+CwzzOTlOaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Selenium\.jenkins\workspace\Ejemplo\src\main\resources
+[INFO] 
+[8mha:////4BfR7Bp6YAOQmKOOnPz2NgtdiMG1I0mqz4+zRZYPCnB9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ PruebasSeleniumWikipedia ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4BfR7Bp6YAOQmKOOnPz2NgtdiMG1I0mqz4+zRZYPCnB9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ PruebasSeleniumWikipedia ---
+[8mha:////4M3c80c68pXDQkgeVaMaZreoxHYaqZVzEC+CwzzOTlOaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Selenium\.jenkins\workspace\Ejemplo\src\test\resources
+[INFO] 
+[8mha:////4BfR7Bp6YAOQmKOOnPz2NgtdiMG1I0mqz4+zRZYPCnB9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ PruebasSeleniumWikipedia ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4M3c80c68pXDQkgeVaMaZreoxHYaqZVzEC+CwzzOTlOaAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to C:\Users\Selenium\.jenkins\workspace\Ejemplo\target\test-classes
+[INFO] 
+[8mha:////4BfR7Bp6YAOQmKOOnPz2NgtdiMG1I0mqz4+zRZYPCnB9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ PruebasSeleniumWikipedia ---
+[INFO] Surefire report directory: C:\Users\Selenium\.jenkins\workspace\Ejemplo\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.example.tests.FuncionamientoCaptchaNuevoUsuarioWikipediaTest
+Starting ChromeDriver 2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30) on port 44805
+Only local connections are allowed.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.141 sec
+Running com.example.tests.NavegacionCompletaConPageObjectModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.351 sec
+Running com.example.tests.NavegacionCompletaGridTest
+Build was aborted
+Aborted by [8mha:////4FILyGlV+AaHCR3uMg2S3DRJmIYC+Ej6OW1Opw4YlfwSAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Recording test results
+Finished: ABORTED
